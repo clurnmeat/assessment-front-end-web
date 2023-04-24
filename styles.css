@@ -1,0 +1,82 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+  display: flexbox;
+  flex-flow: column;
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+  justify-content: center;
+  background-image: './images/mymind-XUlsF9LYeVk-unsplash.jpg';
+}
+
+nav {
+	border-bottom: 2px solid orange;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+}
+
+img {
+	max-width: 400px;
+	max-height: 600px;
+}
+
+body > section {
+	display: flexbox;
+	flex-flow: row;
+}
+
+.back-btn {
+	display: flexbox;
+	flex-flow: row-reverse;
+	justify-content: center;
+}
+
+
+.container{
+	display: flexbox;
+	max-width: 400px;
+	padding: 5px;
+	right: 5px;
+	bottom: 0px;
+}
+
+
+.container > button {
+	width: 100px;
+	height: 60px;
+	background-color: yellow;
+	border-radius: 5px;
+	border: none;
+}
+
+#cat-pic {
+	width: max-content;
+}
